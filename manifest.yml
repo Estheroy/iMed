@@ -1,0 +1,11 @@
+---
+declared-services:
+  dialog-service-standard:
+    label: dialog
+    plan: standard
+applications:
+- services:
+  - dialog-service-standard
+  name: iMedical
+  path: output/webApp.war
+  memory: 512M
