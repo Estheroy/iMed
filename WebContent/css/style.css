@@ -197,7 +197,16 @@ video {
   margin: 0;
   outline: 0;
   padding: 0;
-  vertical-align: baseline; }
+  vertical-align: baseline; 
+  background-image: url(images/Background.jpg);
+
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  }
 
 html {
   -ms-text-size-adjust: 100%;
@@ -1208,3 +1217,15 @@ pre[class*=" language-"] {
       float: left;
       margin-left: 0;
       margin-right: 0%; } }
+
+
+body {
+background-image: url(imagePAth/Indian_wallpapers_205.jpg); /*You will specify your image path here.*/
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}

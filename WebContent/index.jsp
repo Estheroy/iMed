@@ -14,8 +14,8 @@
     <header class="_demo--heading">
 	<div class="_demo--container">
 		<a class="wordmark" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/">
-			<span class="wordmark--left">IBM</span>
-			<span class="wordmark--right">Watson Developer Cloud</span>
+			<span class="wordmark--left"></span>
+			<span class="wordmark--right"></span>
 		</a>
 		<nav class="heading-nav">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
@@ -37,7 +37,7 @@
 	<div class="_demo--banner">
 	<div class="_demo--container">
 		<div class="banner--service-icon-container">
-			<img class="banner--service-icon" src="images/icons/dialog.svg" alt="Concept Insight Service Demo Icon">
+			<img class="banner--service-icon" src="images/icons/iMed_icon.jpg" alt="Concept Insight Service Demo Icon">
 		</div>
 		<div class="banner--service-info">
 			<h1 class="banner--service-title base--h1">
@@ -69,13 +69,9 @@
 </div>
 	<div class="_demo--container">
 	<article class="_demo--content base--article">
-		<h2 class="base--h2">
-			Choose a Dialog Template
-		</h2>
-
 		<div class="separate-line"></div>
 		<h2 class="base--h2">
-			Try the service
+			Try to talk with iMedical
 		</h2>
 		<div class="_content--dialog">
 			<div class="chat-window">
