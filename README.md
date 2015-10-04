@@ -1,5 +1,5 @@
 #iMedical
-<img src="https://github.com/mikokitty/iMed/raw/master/WebContent/fonts/icon-fonts/iMed_icon.jpg" width="70" height="70"> **Your personal medical assistant**
+<img src="https://github.com/mikokitty/iMed/raw/master/WebContent/fonts/icon-fonts/iMed_icon.jpg" width="50" height="50"> **Your personal medical assistant**
 
 -----------------
 ##Background
