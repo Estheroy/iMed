@@ -10,7 +10,8 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<header class="_demo--heading">
+	
+    <header class="_demo--heading">
 	<div class="_demo--container">
 		<a class="wordmark" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/">
 			<span class="wordmark--left">IBM</span>
@@ -18,20 +19,20 @@
 		</a>
 		<nav class="heading-nav">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
-				Services
+			    Log in
 			</a>
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/">
-				Docs
+				Sign up
 			</a>
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html">
-				App Gallery
+				Personal Information
 			</a>
-			<a class="heading-nav--item" href="https://developer.ibm.com/watson/">
-				Community
+			<a class="heading-nav--item" href="https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catelog.html">
+				About Watson
 			</a>
 		</nav>
 	</div>
-</header>
+    </header>
 
 	<div class="_demo--banner">
 	<div class="_demo--container">
@@ -41,9 +42,9 @@
 		<div class="banner--service-info">
 			<h1 class="banner--service-title base--h1">
 				<img class="banner--service-icon_INLINE" src="images/icons/dialog.svg" alt="Concept Insight Service Demo Icon">
-				Dialog
+				iMedical
 			</h1>
-			<div class="banner--service-description">The Dialog service provides a comprehensive, technology platform for managing conversations between virtual agents and users through an Application Programming Interface (API).</div>
+			<div class="banner--service-description">iMedical is a personal health assistant and a chatting robot for users to have preliminary diagnosis.</div>
 			<div class="banner--service-resource">
 				<span class="icon icon-link"></span>
 				<strong>Resources:</strong>
@@ -64,21 +65,14 @@
 			</div>
 		</div>
 	</div>
+
 </div>
 	<div class="_demo--container">
 	<article class="_demo--content base--article">
 		<h2 class="base--h2">
 			Choose a Dialog Template
 		</h2>
-		<p>A template that contains prepared structures to create natural dialogs for your app.</p>
-		<div class="radio-group">
-			<input type="radio" name="dialog-template" id="hello-radio" value="hello" class="base--radio" checked>
-			<label for="hello-radio" class="base--label radio-group--label">Order A Pizza Template</label>
-			<input type="radio" name="dialog-template" id="yellow-radio" value="yellow" class="base--radio" disabled>
-			<label for="yellow-radio" class="base--label radio-group--label">Tech Support Template</label>
-			<input type="radio" name="dialog-template" id="green-radio" value="green" class="base--radio" disabled>
-			<label for="green-radio" class="base--label radio-group--label">Movie Template</label>
-		</div>
+
 		<div class="separate-line"></div>
 		<h2 class="base--h2">
 			Try the service
@@ -123,33 +117,7 @@
 			</div>
 		</div>
 
-		<div class="_content--data">
-			<div class="tab-panels" role="tabpanel">
-				<ul class="tab-panels--tab-list" role="tablist">
-					<li class="tab-panels--tab-list-item base-li" role="presentation">
-						<a class="tab-panels--tab base--a active" href="#data-panel" aria-controls="text" role="tab">Data</a>
-					</li>
-					<li class="tab-panels--tab-list-item base-li" role="presentation">
-						<a class="tab-panels--tab base--a" href="#json-panel" aria-controls="json" role="tab">JSON</a>
-					</li>
-				</ul>
-				<div class="tab-panels--tab-content">
-					<div id="data-panel" class="tab-panels--tab-pane active" role="tab-panel">
-						<div class="base--textarea">
-							<h6 class="base--h6">Information</h6>
-							<div class="data--information">
-							</div>
-							<h6 class="base--h6">Profile</h6>
-							<div class="data--profile">
-							</div>
-						</div>
-					</div>
-					<div id="json-panel" class="tab-panels--tab-pane" role="tab-panel">
-						<textarea class="base--textarea"></textarea>
-					</div>
-				</div>
-			</div>
-		</div>
+
 		<!-- Property template -->
 		<div class="data--variable hidden">
 			<span class="data--variable-title"></span>
