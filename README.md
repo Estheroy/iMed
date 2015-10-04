@@ -13,15 +13,15 @@
 > 
 > - Shortage in medical professionals
 <br>
-* The shortage of physicians pose a real risk to patients by delaying necessary treatments and decreasing quality of care provided.   
+  *The shortage of physicians pose a real risk to patients by delaying necessary treatments and decreasing quality of care provided.   
 <br/>
 > - Problem of misdiagnosis
 <br>
-* The prevalence of misdiagnosis in outpatients clinics and doctor’s office suggests that the current mode of diagnosis is prone to human errors.
+  *The prevalence of misdiagnosis in outpatients clinics and doctor’s office suggests that the current mode of diagnosis is prone to human errors.
 <br/>
 > - Cost of outpatient visits
 <br>
-* The cost of outpatient visits could be frustrated too. Nowadays, patients have to make an appointment to see a doctor and pay the copay each visit plus the fees of physical examinations.
+  *The cost of outpatient visits could be frustrated too. Nowadays, patients have to make an appointment to see a doctor and pay the copay each visit plus the fees of physical examinations.
 <br/>
 
 -----------------
@@ -41,8 +41,8 @@
 <br/>
 >- Chatting with iMedical 
 <br>
-First iMedical can begin the conversation by personalized greeting
-After talking with iMedical about your symptoms, iMedical will generate a preliminary diagnosis for you.
+  1.First iMedical can begin the conversation by personalized greeting
+  2.After talking with iMedical about your symptoms, iMedical will generate a preliminary diagnosis for you.
 <br/>
 >- Speech to Text 
 <br>
@@ -56,7 +56,13 @@ After talking with iMedical about your symptoms, iMedical will generate a prelim
 
 ##Chatting Examples
 
+>- Greeting
 
+>- Dialog Sample 1
+
+>- Dialog Sample 2
+
+>- Dialog Sample 3
 
 -----------------
 
