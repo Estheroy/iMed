@@ -39,43 +39,50 @@
                             <item>Yes, no problem. Do you know the name of the doctor that you would like to see? If you do, state the name and I would make an appointment for you. </item>
                         </prompt>
                     </output>
-		    </input>
-                     <input>
+		      <input>
                     <grammar>
                         <item>$ (Name)={name}</item>
                     </grammar>
                 
                 <output>
                          <action varName="name" operator="SET_TO">{name.value:main}</action>
+			<prompt selectionType="RANDOM">
+				<item>Ok. Thank you. When do you want it to be?</item>
+				</prompt>
                 </output>
                 </input>
-                                <input>
+			<input>
+		          <grammar>
+			    <item>Monday</item>
+			  </grammar>		
+			<output>
+    				<prompt selectionType="RANDOM">
+				<item>Ok. You are all set. </item>
+				</prompt>
+			</output>
+			</input>
+			<input>
+	               	 <grammar>
+			   <item>No, I have no idea. Can you recommend one?</item>
+			</grammar>
+			   <output>
+				<prompt selectionType="RANDOM">
+				   <item>Sure. Which type of specialist are you looking for?</item>
+				</prompt>
+			   </output>
+			</input>
+			 </input>
+
+                        <input>
                         <grammar>
-                            <item>I am not well.</item>
-                            <item>* I am not well</item>
-                            <item>I am not well *</item>
-                            <item>* I am not well *</item>
-                            <item>ill</item>
-                            <item>$ I do not feel good</item>
-                            <item>$ I do not feel well</item>
-                            <item>$ I am ill</item>
-                            <item>$ do not feel good</item>
-                            <item>$ I am sick</item>
-                            <item>$ I am not feeling well</item>
-                            <item>$ I feel ill</item>
-                            <item>$ I am not doing * good</item>
-                            <item>$ I am not going * good</item>
-                            <item>$ I am not doing * great</item>
-                            <item>$ I am not going * great</item>
-                            <item>$ I am not doing * well</item>
-                            <item>$ I am not going * well</item>
-                            <item>$ under the weather</item>
-                            <item>$ I feel sick</item>
-                            <item>$ I am not feeling fine</item>
-                            <item>$ wish my health was better</item>
-                            <item>$ I am not doing so good</item>
-                            <item>$ I * not doing so good</item>
-                            <item>$ I have been sick</item>
+                            <item>$ I am not well</item>
+			    <item>* ill *</item>
+			    <item>* I am sick *</item>
+			    <item>$ I feel sick *</item>
+			    <item>I feel sick *</item>
+			    <item>$ I am not doing * good</item>
+			    <item>$ under the weather</item>
+			    <item>$ I am not feeling fine</item> 
                         </grammar>
                         <output>
                             <prompt selectionType="RANDOM">
@@ -83,8 +90,10 @@
                                 <item>I can help you find a doctor. Can you describe your symptoms? </item>
                             </prompt>
                         </output>
+			<input>
+			</input>
                     </input>  
-
+               </folder>
                 <folder label="Greetings">
                     <input>
                         <grammar>
@@ -1304,7 +1313,7 @@
                             </prompt>
                         </output>
                     </input>
-                </folder>
+           
 
             </folder>
             <folder label="Storage"/>
@@ -1389,7 +1398,7 @@
                     <item>n-o</item>
                 </grammar>
             </concept>
-            <concept description="OI 15/7/11: Item &quot;Sure&quot; was removed from this list as it was causing issues with matches when two different input nodes had &quot;I am not sure&quot; and &quot;$ yes&quot;.  OI: 4/8/11: &quot;fine&quot; and &quot;Good&quot; were removed as well  MO 18/10/12 removed &quot;all right&quot; and &quot;alright&quot; as they were causing conflict in perfect boyfriend  MO 29/10/12 removed &quot;always&quot;">
+            <concept>
                 <grammar>
                     <item>yes</item>
                     <item>Absolutely</item>
@@ -1602,7 +1611,7 @@
                     <item>Dr.Mary</item>
                 </grammar>
             </value>
-            <value name="Medium" value="Medium">
+            <value name="James" value="James">
                 <grammar>
                     <item>Dr James</item>
                     <item>Dr.James</item>
@@ -1621,6 +1630,35 @@
                 </grammar>
             </value>
         </entity>
+	<entity name="Symptoms">
+	<value name="Headache" value="Headache">
+	  <grammar>
+                    <item>headache</item>
+                    <item>HEADACHE</item>
+                </grammar>
+            </value>
+		<value name="Sneeze" value="Sneeze">
+	  <grammar>
+                    <item>sneeze</item>
+                    <item>sneezing</item>
+		    <item>Sneezing</item>
+                </grammar>
+            </value>
+	<value name="Cough" value="Cough">
+	  <grammar>
+                    <item>cough</item>
+                    <item>Dry cough</item>
+		    <item>dry cough</item>
+                </grammar>
+            </value>
+	<value name="Sore throat" value="Sore throat">
+	  <grammar>
+                    <item>sore throat</item>
+                    <item>Sore throat</item>
+           </grammar>
+            </value>
+	</entity>
+
     </entities>
     <constants>
         <var_folder name="Home">
@@ -1632,14 +1670,9 @@
     <variables>
         <var_folder name="Home">
 	    <var name="context" type="TEXT"/>
-            <var name="topping1" type="TEXT"/>
-            <var name="topping2" type="TEXT"/>
-            <var name="topping3" type="TEXT"/>
-            <var name="topping4" type="TEXT"/>
-            <var name="sauce" type="TEXT" description="Describes the type of sauce to top a pizza with"/>
-            <var name="crust" type="TEXT"/>
+            <var name="disease" type="TEXT"/>
             <var name="name" type="TEXT" description="Mary, James, David, or Bob"/>
-            <var name="method" type="TEXT" description="pickup or delivery"/>
+            <var name="symptom1" type="TEXT" description="pickup or delivery"/>
         </var_folder>
     </variables>
     <settings>
