@@ -18,16 +18,20 @@
 			<span class="wordmark--right"></span>
 		</a>
 		<nav class="heading-nav">
-			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
+            <img class="banner--service-icon_INLINE" src="images/icons/map.png" alt="Concept Insight Service Demo Icon">
+            <a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
 			    Log in
 			</a>
+            <img class="banner--service-icon_INLINE" src="images/icons/chat.png" alt="Concept Insight Service Demo Icon">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/">
 				Sign up
 			</a>
+            <img class="banner--service-icon_INLINE" src="images/icons/personal.png" alt="Concept Insight Service Demo Icon">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html">
 				Personal Information
 			</a>
-			<a class="heading-nav--item" href="https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catelog.html">
+			<img class="banner--service-icon_INLINE" src="images/icons/ibm.png" alt="Concept Insight Service Demo Icon">
+            <a class="heading-nav--item" href="https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catelog.html">
 				About Watson
 			</a>
 		</nav>
@@ -46,22 +50,7 @@
 			</h1>
 			<div class="banner--service-description">iMedical is a personal health assistant and a chatting robot for users to have preliminary diagnosis.</div>
 			<div class="banner--service-resource">
-				<span class="icon icon-link"></span>
-				<strong>Resources:</strong>
 			</div>
-			<div class="banner--service-links">
-				<li class="base--li banner--service-link-item">
-					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/dialog-apis.html" class="base--a">API Overview</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/dialog.html" class="base--a">Documentation</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/dialog-java.git" class="base--a">Fork and Deploy on Bluemix</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="https://github.com/watson-developer-cloud/dialog-java" class="base--a">Fork on Github</a>
-				</li>
 			</div>
 		</div>
 	</div>
@@ -80,7 +69,7 @@
 						<div class="chat-box--item_WATSON chat-box--item chat-box--item_HIDDEN">
 							<div class="chat-box--container">
 								<div class="img-container chat-box--avatar chat-box--avatar_WATSON">
-									<img src="images/icons/avatar-watson.svg" class="chat-box--avatar-img">
+									<img src="fonts/icon-fonts/iMed_icon.jpg" class="chat-box--avatar-img">
 								</div>
 								<div class="chat-box--message">
 									<div class="chat-box--message-vertical">

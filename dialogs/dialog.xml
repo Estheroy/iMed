@@ -39,18 +39,19 @@
                             <item>Yes, no problem. Do you know the name of the doctor that you would like to see? If you do, state the name and I would make an appointment for you. </item>
                         </prompt>
                     </output>
+                    </input>
+
 		      <input>
                     <grammar>
                         <item>$ (Name)={name}</item>
-                    </grammar>
-                
-                <output>
+                    </grammar>       
+               		 <output>
                          <action varName="name" operator="SET_TO">{name.value:main}</action>
 			<prompt selectionType="RANDOM">
 				<item>Ok. Thank you. When do you want it to be?</item>
 				</prompt>
-                </output>
-                </input>
+               		 </output>
+              		  </input>
 			<input>
 		          <grammar>
 			    <item>Monday</item>
@@ -70,9 +71,7 @@
 				   <item>Sure. Which type of specialist are you looking for?</item>
 				</prompt>
 			   </output>
-			</input>
-			 </input>
-
+			</input>			
                         <input>
                         <grammar>
                             <item>$ I am not well</item>
@@ -90,11 +89,40 @@
                                 <item>I can help you find a doctor. Can you describe your symptoms? </item>
                             </prompt>
                         </output>
-			<input>
+			
 			</input>
-                    </input>  
-               </folder>
-                <folder label="Greetings">
+			 <input>
+                        <grammar>
+                            <item>I have a severe headache</item>
+			   <item>My throat hurts</item>
+			   <item>I am sneezing non-stop</item>
+                        </grammar>
+                        <output>
+                            <prompt selectionType="RANDOM">
+                                <item>Anything else?</item>
+                             </prompt>
+                        </output>
+			</input>
+			 <input>
+                        <grammar>
+                            <item>I have a headache too</item>
+			   <item>My throat hurts too</item>
+			   <item>I am sneezing non-stop too</item>
+                        </grammar>
+                        <output>
+                            <prompt selectionType="RANDOM">
+                                <item>Sounds like you might have caught a cold!</item>
+                             </prompt>
+                        </output>
+			  <output>
+                            <prompt selectionType="RANDOM">
+                                <item>Would you like to make an appointment?</item>
+                             </prompt>
+                        </output>
+</input>
+
+	
+                      <folder label="Greetings">
                     <input>
                         <grammar>
                             <item>Hello</item>
@@ -1313,7 +1341,8 @@
                             </prompt>
                         </output>
                     </input>
-           
+           </folder>
+
 
             </folder>
             <folder label="Storage"/>
