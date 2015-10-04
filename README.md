@@ -6,7 +6,6 @@
 
 >For centuries, technologies have been used to improve lives of the people. Most notably, the use of computational technology has made many tasks simpler, faster and more efficient. In the medical field, experts constantly seek better ways to deliver quality health care, only to realize the necessity of using information technology to deal with the ever-growing knowledge system.
 
------------------
 
 ##Motivation
 > **Problem Analysis**
@@ -24,7 +23,6 @@
   *The cost of outpatient visits could be frustrated too. Nowadays, patients have to make an appointment to see a doctor and pay the copay each visit plus the fees of physical examinations.
 <br/>
 
------------------
 ##Our Solution
 
 
@@ -51,7 +49,6 @@
 <br>
 <br/>
 
------------------
 
 
 ##Chatting Examples
@@ -63,8 +60,6 @@
 >- Dialog Sample 2
 
 >- Dialog Sample 3
-
------------------
 
 
 
