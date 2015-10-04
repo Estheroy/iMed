@@ -37,7 +37,7 @@
 	<div class="_demo--banner">
 	<div class="_demo--container">
 		<div class="banner--service-icon-container">
-			<img class="banner--service-icon" src="images/icons/iMed_icon.jpg" alt="Concept Insight Service Demo Icon">
+			<img class="banner--service-icon" src="fonts/icon-fonts/iMed_icon.jpg" alt="Concept Insight Service Demo Icon">
 		</div>
 		<div class="banner--service-info">
 			<h1 class="banner--service-title base--h1">

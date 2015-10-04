@@ -198,7 +198,8 @@ video {
   outline: 0;
   padding: 0;
   vertical-align: baseline; 
-  background-image: url(images/Background.jpg);
+  
+  background-image: url('images/Background.jpg');
 
   -moz-background-size: cover;
   -webkit-background-size: cover;
