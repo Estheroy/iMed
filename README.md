@@ -70,7 +70,7 @@ Name      | Email
 Scarlet (Jiali) Xie | jlxie@ucsd.edu
 Esther (Xuanpei) Ouyang | xuouyang@ucsd.edu
 Stanley (U Tong) Lam | ulam@ucsd.edu
-Cecilia (Kuangcong)  | k8liu@ucsd.edu
+Cecilia (Kuangcong) Liu  | k8liu@ucsd.edu
 
 
 -----------------
