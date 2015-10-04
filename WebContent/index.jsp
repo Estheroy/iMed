@@ -18,16 +18,20 @@
 			<span class="wordmark--right"></span>
 		</a>
 		<nav class="heading-nav">
-			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
+            <img class="banner--service-icon_INLINE" src="images/icons/map.png" alt="Concept Insight Service Demo Icon">
+            <a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catalog.html">
 			    Log in
 			</a>
+            <img class="banner--service-icon_INLINE" src="images/icons/chat.png" alt="Concept Insight Service Demo Icon">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/">
 				Sign up
 			</a>
+            <img class="banner--service-icon_INLINE" src="images/icons/personal.png" alt="Concept Insight Service Demo Icon">
 			<a class="heading-nav--item" href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html">
 				Personal Information
 			</a>
-			<a class="heading-nav--item" href="https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catelog.html">
+			<img class="banner--service-icon_INLINE" src="images/icons/ibm.png" alt="Concept Insight Service Demo Icon">
+            <a class="heading-nav--item" href="https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/services-catelog.html">
 				About Watson
 			</a>
 		</nav>
@@ -48,20 +52,14 @@
 			<div class="banner--service-resource">
 				<span class="icon icon-link"></span>
 				<strong>Resources:</strong>
+                <div class="banner--service-links">
+				<li class="base--li banner--service-link-item">
+					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/dialog.html" class="base--a">IBM bluemix API Overview</a>
+				</li>
+				<li class="base--li banner--service-link-item">
+					<a href="https://github.com/watson-developer-cloud/dialog-java" class="base--a">Dialog Demo</a>
+				</li>
 			</div>
-			<div class="banner--service-links">
-				<li class="base--li banner--service-link-item">
-					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/apis/dialog-apis.html" class="base--a">API Overview</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/dialog.html" class="base--a">Documentation</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/dialog-java.git" class="base--a">Fork and Deploy on Bluemix</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="https://github.com/watson-developer-cloud/dialog-java" class="base--a">Fork on Github</a>
-				</li>
 			</div>
 		</div>
 	</div>
@@ -113,6 +111,33 @@
 			</div>
 		</div>
 
+        <div class="_content--data">
+			<div class="tab-panels" role="tabpanel">
+				<ul class="tab-panels--tab-list" role="tablist">
+					<li class="tab-panels--tab-list-item base-li" role="presentation">
+						<a class="tab-panels--tab base--a active" href="#data-panel" aria-controls="text" role="tab">Data</a>
+					</li>
+					<li class="tab-panels--tab-list-item base-li" role="presentation">
+						<a class="tab-panels--tab base--a" href="#json-panel" aria-controls="json" role="tab">JSON</a>
+					</li>
+				</ul>
+				<div class="tab-panels--tab-content">
+					<div id="data-panel" class="tab-panels--tab-pane active" role="tab-panel">
+						<div class="base--textarea">
+							<h6 class="base--h6">Information</h6>
+							<div class="data--information">
+							</div>
+							<h6 class="base--h6">Profile</h6>
+							<div class="data--profile">
+							</div>
+						</div>
+					</div>
+					<div id="json-panel" class="tab-panels--tab-pane" role="tab-panel">
+						<textarea class="base--textarea"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Property template -->
 		<div class="data--variable hidden">
