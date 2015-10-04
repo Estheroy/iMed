@@ -36,17 +36,18 @@
 
 >- Login In and Sign up
 <br>
+<img src="https://github.com/mikokitty/iMed/raw/master/Sign_up.png"> **Your personal medical assistant**
+
 <br/>
 >- Chatting with iMedical 
 <br>
+<img src="https://github.com/mikokitty/iMed/raw/master/chatting.png"> **Your personal medical assistant**
   1.First iMedical can begin the conversation by personalized greeting
   2.After talking with iMedical about your symptoms, iMedical will generate a preliminary diagnosis for you.
 <br/>
->- Speech to Text 
-<br>
-<br/>
 >- Make a Appointment
 <br>
+<img src="https://github.com/mikokitty/iMed/raw/master/image4.png"> **Your personal medical assistant**
 <br/>
 
 
@@ -54,12 +55,13 @@
 ##Chatting Examples
 
 >- Greeting
-
+<img src="https://github.com/mikokitty/iMed/raw/master/image1.png"> **Your personal medical assistant**
 >- Dialog Sample 1
-
+<img src="https://github.com/mikokitty/iMed/raw/master/image2.png"> **Your personal medical assistant**
 >- Dialog Sample 2
+<img src="https://github.com/mikokitty/iMed/raw/master/image3.png" width="50" height="50"> **Your personal medical assistant**
 
->- Dialog Sample 3
+
 
 
 
