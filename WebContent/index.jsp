@@ -50,15 +50,6 @@
 			</h1>
 			<div class="banner--service-description">iMedical is a personal health assistant and a chatting robot for users to have preliminary diagnosis.</div>
 			<div class="banner--service-resource">
-				<span class="icon icon-link"></span>
-				<strong>Resources:</strong>
-                <div class="banner--service-links">
-				<li class="base--li banner--service-link-item">
-					<a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/dialog.html" class="base--a">IBM bluemix API Overview</a>
-				</li>
-				<li class="base--li banner--service-link-item">
-					<a href="https://github.com/watson-developer-cloud/dialog-java" class="base--a">Dialog Demo</a>
-				</li>
 			</div>
 			</div>
 		</div>
