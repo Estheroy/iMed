@@ -78,7 +78,7 @@
 						<div class="chat-box--item_WATSON chat-box--item chat-box--item_HIDDEN">
 							<div class="chat-box--container">
 								<div class="img-container chat-box--avatar chat-box--avatar_WATSON">
-									<img src="images/icons/avatar-watson.svg" class="chat-box--avatar-img">
+									<img src="fonts/icon-fonts/iMed_icon.jpg" class="chat-box--avatar-img">
 								</div>
 								<div class="chat-box--message">
 									<div class="chat-box--message-vertical">
